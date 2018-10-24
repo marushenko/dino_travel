@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Diplomata|Permanent+Marker');
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+header .header-logo {
+    font-family: 'Diplomata', cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px auto;
+}
+header .menu {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .menu li {
+    display: inline;
+}
+header .menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+    
+
+}
+
+header .menu li a:hover {
+    text-decoration: underline;
+}
+header .banner {
+    min-height: 400px;
+    background-image: url(../img/package-tour.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header .banner .button-container {
+    display: flex;
+    color: white;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+@media (min-width: 500px) {
+    header nav {
+        display: flex;
+    }
+    header .header-logo {
+        margin: 0;
+    }
+    header .menu {
+        flex: 1;
+        align-items: center;
+    }
+    
+}
