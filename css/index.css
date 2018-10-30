@@ -3,6 +3,15 @@ body {
     max-width: 980px;
     margin: auto;
 }
+html {
+  background-color: black; 
+}
+h1,h2,h3,h4 {
+    color: white;
+}
+p {
+    color: white;
+}
 
 header .header-logo {
     font-family: 'Diplomata', cursive;
@@ -22,7 +31,7 @@ header .menu li {
 header .menu li a {
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: white;
     font-family: 'Permanent Marker', cursive;
     
 
@@ -45,7 +54,7 @@ header .banner .button-container {
     color: white;
 }
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: red;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -54,7 +63,16 @@ header .banner .button-container {
     display: inline-block;
     font-size: 16px;
 }
-@media (min-width: 500px) {
+header .banner2 {
+    min-height: 400px;
+    background-image: url(../img/walking-holiday.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width: 740px) {
     header nav {
         display: flex;
     }
@@ -66,4 +84,37 @@ header .banner .button-container {
         align-items: center;
     }
     
+}
+
+.tour-card {
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.tour-card img {
+    display: block;
+    width: 100%;
+}
+
+.tour-card .button-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tour-card .button {
+    padding: 5px;
+    min-width: 85px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer {
+    padding: 0;
+    font-family: cursive;
+    display: flex;
+    justify-content: space-around;
+    color: red;
 }
