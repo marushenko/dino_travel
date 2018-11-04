@@ -12,6 +12,9 @@ h1,h2,h3,h4 {
 p {
     color: white;
 }
+label {
+    color: white;
+}
 
 header .header-logo {
     font-family: 'Diplomata', cursive;
