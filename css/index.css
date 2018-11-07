@@ -4,7 +4,7 @@ body {
     margin: auto;
 }
 html {
-  background-color: black; 
+    background-color: black; 
 }
 h1,h2,h3,h4 {
     color: white;
@@ -16,20 +16,25 @@ label {
     color: white;
 }
 
-
 header .header-logo {
     font-family: 'Diplomata', cursive;
     font-size: 3rem;
     text-align: center;
     margin: 20px auto;
 }
+
 header .logo {
     padding: 0;
     display: flex;
     justify-content: space-around;
 }
 
- .menu {
+#siteLogo {
+    width: 400px;
+    height: 400px;
+}
+
+.menu {
     padding: 0;
     display: flex;
     justify-content: space-around;
@@ -51,6 +56,9 @@ header .menu li a:hover {
     text-decoration: underline;
     color: red;
     font-size: 150%;
+}
+#clock {
+    color: white;
 }
 header .banner {
     min-height: 400px;
@@ -91,27 +99,6 @@ header .banner2 {
     display: flex;
     width: 100%;
     }
-@media (min-width: 740px) {
-    header nav {
-        display: flex;
-    }
-    header .header-logo {
-        margin: 0;
-    }
-    header .menu {
-        flex: 1;
-        align-items: center;
-    }
-}
-@media (min-width: 600px) {
-    .tour-list {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .tour-card {
-        margin: 10px;
-    }
-}
 
 .tour-card .button-container {
     display: flex;
@@ -126,6 +113,7 @@ header .banner2 {
     align-items: center;
     justify-content: center;
 }
+
 footer {
     padding: 0;
     font-family: cursive;
@@ -134,3 +122,25 @@ footer {
     color: red;
 }
 
+@media (min-width: 740px) {
+    header nav {
+        display: flex;
+    }
+    header .header-logo {
+        margin: 0;
+    }
+    header .menu {
+        flex: 1;
+        align-items: center;
+    }
+}
+
+@media (min-width: 600px) {
+    .tour-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .tour-card {
+        margin: 10px;
+    }
+}
