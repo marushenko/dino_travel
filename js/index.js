@@ -8,7 +8,7 @@ Visit http://rainbow.arch.scriptmania.com/scripts/
 */
 
 // Set the number of snowflakes (more than 30 - 40 not recommended)
-var snowmax=100
+var snowmax=50
 
 // Set the colors for the snow. Add as many colors as you like
 var snowcolor=new Array("#aaaacc","#ddddff","#ccccdd","#f3f3f3","#f0ffff")
@@ -26,7 +26,7 @@ var sinkspeed=2
 var snowmaxsize=30
 
 // Set the minimal-size of your snowflakes
-var snowminsize=8
+var snowminsize=15
 
 // Set the snowing-zone
 // Set 1 for all-over-snowing, set 2 for left-side-snowing
